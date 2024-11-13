@@ -8,14 +8,14 @@ on:
 env:
   #REPO_URL: https://github.com/LiBwrt-op/openwrt-6.x.git
   REPO_URL: https://github.com/hanwckf/immortalwrt-mt798x.git
-  REPO_BRANCH: main
+  REPO_BRANCH: openwrt-21.02
   CONFIG_FILE: defconfig/mt7986-ax6000.config
   DIY_SCRIPT: diy-script.sh
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: IPQ60XX-ALL
+  FIRMWARE_TAG: ax6000
   TZ: Asia/Shanghai
 
 jobs:
